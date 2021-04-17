@@ -1,0 +1,3 @@
+[console_scripts]
+file-api = file_api:app
+

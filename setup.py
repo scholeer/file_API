@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="file_api",
-    version="0.0.1",
+    version="0.0.5",
     author="Richard Paprok",
     author_email="scholeer@seznam.cz",
     description="Flask restful file api package",
@@ -17,7 +17,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=[flask, flask_restful],
+    install_requires=["flask", "flask_restful"],
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
 )

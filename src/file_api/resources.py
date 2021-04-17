@@ -1,7 +1,7 @@
 import os
 from flask_restful import Resource
 from flask_restful import reqparse
-from file_api.config import Config
+from config import Config
 
 
 def file_info(filepath):

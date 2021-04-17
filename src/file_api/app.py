@@ -1,12 +1,11 @@
 from flask import Flask
 from flask_restful import Api
-from file_api.resources import ListRootDirectory, ListDirectory, FileInfo, DeleteFile, CreateFile, CreateDirectory
+from resources import ListRootDirectory, ListDirectory, FileInfo, DeleteFile, CreateFile, CreateDirectory
 from optparse import OptionParser
-from file_api.config import Config
+from config import Config
 
 app = Flask(__name__)
 api = Api(app)
-
 
 
 api.add_resource(ListRootDirectory, '/')

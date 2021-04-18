@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: file-api
+Version: 0.0.11
+Summary: Flask restful file api package
+Home-page: https://github.com/scholeer/file_API
+Author: Richard Paprok
+Author-email: scholeer@seznam.cz
+License: UNKNOWN
+Description: # file_API
+        
+        curl http://localhost:5000/create_file -d "file=dir1/z0.txt" -X PUT
+        
+        curl http://localhost:5000/create_directory -d "file=dir13/dir14" -X PUT
+        
+        curl http://localhost:5000/delete_file/a1.txt -X DELETE
+        
+        curl http://localhost:5000/file_info/dir1/dirA/c3.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
